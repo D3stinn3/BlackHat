@@ -27,7 +27,7 @@ while True:
         port_range_refined = port_range.replace(" ", "")
         port_range_validity = port_range_pattern.search(port_range_refined)
         
-        if port_range_validity is True:
+        if port_range_validity:
             print("Valid port range!")
             
             global port_listing
