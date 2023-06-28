@@ -35,7 +35,7 @@ while True:
             port_upper_limit = int(port_range_validity.group(1))
             port_lower_limit = int(port_range_validity.group(2))
             port_listing = (port_lower_limit, port_upper_limit + 1)
-        break
+            break
         
     except:
         print("Invalid port range scan values")
