@@ -20,7 +20,7 @@ while True:
 while True:
     port_min = 0
     port_max = 65535
-    port_range = input("\nTafadhali weka port range(Example 80-90):")
+    port_range = input("\nTafadhali weka port range(Example 80-90): ")
     
     try:
         port_range_pattern = re.compile("([0-9]+) - ([0-9]+)")
